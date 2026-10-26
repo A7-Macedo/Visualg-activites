@@ -1,0 +1,39 @@
+algoritmo "Usuarios" 
+// inicio de um algoritmo/programa!
+// com declaração propria
+
+// declaração de variáveis
+var 
+
+// variaveis definida como uma classe, mas existem outras classes: 
+// reais, inteiro, cadeia, logica, caracter 
+nomeCompleto: caractere 
+username: caractere
+password: caractere
+idade: inteiro  
+peso: real
+ativo: logico
+
+inicio // inicio do programa
+
+ativo <- verdadeiro
+
+// você pergunta o valor da variavel
+
+escreva("Qual seu nome completo: ") //                    =============================================================================                                                                         
+leia(nomeCompleto) 
+escreva("Qual seu username: ") //                         =============================================================================
+leia(username)
+escreva("Qual sua senha:  ") //                           ======== Rodando o programa de perguntas e respostas para o usuario =========
+leia(password)
+escreva("Qual sua idade:  ") //                           =============================================================================
+leia(idade) 
+escreva("Qual seu peso: ") //                             =============================================================================
+leia(peso)
+escreva("O Estado atual do seu login é:  ", ativo) //     =============================================================================
+
+
+
+
+// Finalzação do algoritmo/programa!
+fimalgoritmo 
