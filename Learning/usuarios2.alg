@@ -20,6 +20,10 @@ ativo <- verdadeiro
 
 // você pergunta o valor da variavel
 
+escreval("===================================
+Tela de cadastro
+==================================")
+
 escreva("Qual seu nome completo: ") //                    =============================================================================                                                                         
 leia(nomeCompleto) 
 escreva("Qual seu username: ") //                         =============================================================================
@@ -32,6 +36,16 @@ escreva("Qual seu peso: ") //                             ======================
 leia(peso)
 escreva("O Estado atual do seu login é:  ", ativo) //     =============================================================================
 
+
+limpaTela // limpar as informações superiores
+// Exibir as informações do usuario
+escreval("===================================
+Tela de Informações
+==================================")
+escreval("Nome: ", nomeCompleto)
+escreval("Username: ", username)
+escreval("idade: ", idade)
+escreval("peso: ", peso)
 
 
 
