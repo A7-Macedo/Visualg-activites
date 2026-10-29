@@ -26,7 +26,10 @@ limpatela
 escreval("A media de ", nome ," foi ", mediaAv)
 se(mediaAv >= 70) entao
 escreva("O aluno ", nome , " Foi aprovado! ")
-senao 
+senao se(MediaAv = 5) entao
+escreva(nome, " É o Cara do batalhão!!") // mensão honrosa ao davi!!!!!
+senao
 escreva("O aluno ", nome ," Foi reprovado! ")
+fimse 
 fimse
 fimalgoritmo
