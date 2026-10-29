@@ -18,5 +18,5 @@ leia(quantHora)
 
 salarioFinal <- quantHora * salarioHora
 limpatela
-escreva("o funcionário", nome ,"Recebe R$:", salarioFinal ," p/m")
+escreva("o funcionário ", nome ," Recebe R$:", salarioFinal ," p/m")
 fimalgoritmo
