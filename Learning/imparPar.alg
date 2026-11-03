@@ -3,7 +3,7 @@ algoritmo "Par ou Impar"
 var
 
 n1: inteiro
-resultado: inteiro
+
 
 inicio
 
