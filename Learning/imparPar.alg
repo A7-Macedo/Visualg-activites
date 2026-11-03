@@ -4,7 +4,6 @@ var
 
 n1: inteiro
 
-
 inicio
 
 escreva("Digite um número: ")

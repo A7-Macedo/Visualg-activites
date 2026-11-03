@@ -14,8 +14,11 @@ leia(n2)
 
 se ( n1 > n2) entao
 escreva("o segundo produto é mais barato")
-senao
+senao se (n2 > n1) entao
 escreva("O primeiro produto é mais barato")
+senao
+escreva("Os dois tem o mesmo preço")
+fimse
 fimse
 
 fimalgoritmo
