@@ -8,7 +8,6 @@ av02: real
 av03: real
 mediaAv: inteiro
 totalAv: real
-Frequencia: real
 
 inicio
 
