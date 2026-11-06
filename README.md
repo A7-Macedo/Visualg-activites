@@ -30,4 +30,4 @@ Coleção de algoritmos e exercícios de lógica de programação desenvolvidos 
 
 ## 👤 Autor
 
-Feito por Arthur Macedo. GitHub:
+Feito por Arthur Macedo. GitHub:[https://github.com/A7-Macedo]
