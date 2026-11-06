@@ -72,6 +72,7 @@ saldoAtualizado <- saldo - saque
 
 escreva("Seu saldo atual agora é de: ", saldoAtualizado)
 
+
 fimse
 caso 4
 
