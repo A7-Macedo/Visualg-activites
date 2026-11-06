@@ -17,10 +17,10 @@ saldo <- 1000
 
 escreva("Login: ")
 leia(usuario)
-escreva("Senha")
+escreva("Senha: ")
 leia(senha)
 
-se (usuario <> "arthur") (senha <> "123") entao
+se (usuario <> "arthur") ou (senha <> "123") entao
 escreva("Acesso negado!!")
 interrompa
 fimse
@@ -38,6 +38,8 @@ escreval("---------------Sistema bancário--------------
 
 Escolha a opção desejada: ")
 leia(menu)
+
+limpatela
 
 escolha menu
 
@@ -59,10 +61,18 @@ caso 3
 escreva("Quando você deseja sacar: ")
 leia(saque)
 
+se (saque > saldo) entao
+
+escreva("você não tem esse valor na conta")
+
+
+senao
+
 saldoAtualizado <- saldo - saque
 
 escreva("Seu saldo atual agora é de: ", saldoAtualizado)
 
+fimse
 caso 4
 
 escreva("Ok, tenha um bom dia!")
@@ -71,4 +81,5 @@ outrocaso
 
 escreva("Opção incorreta, renicie o menu e escolha uma opção verdadeira")
 
+fimescolha
 fimalgoritmo
