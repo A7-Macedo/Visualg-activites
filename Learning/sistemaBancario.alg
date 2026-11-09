@@ -36,6 +36,7 @@ escreval("---------------Sistema bancário--------------
 
 4 - Sair
 
+
 Escolha a opção desejada: ") // Menu exibido para o usuário caso o nome e senha estejam corretos
 leia(menu)// leu oque o usuário digitou
 
