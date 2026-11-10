@@ -1,4 +1,5 @@
-algoritmo "Sistema bancario" // Nome do Programa
+algoritmo "Sistema bancario" 
+// Nome do Programa
 
 var  // declarar todas as variaveis que serão usadas
 
@@ -20,11 +21,15 @@ leia(usuario) // leu oque o usuário digitou
 escreva("Senha: ")// pedindo o senha do usuário
 leia(senha)// leu oque o usuário digitou
 
-se (usuario <> "arthur") ou (senha <> "123") entao // se o usuário for diferente de arthur ou senha for diferente de 123 então exiba
-escreva("Acesso negado!!")// !!!!!!!!!!!!!!!!
+se (usuario <> "arthur") ou (senha <> "123") entao 
+// se o usuário for diferente de arthur ou senha for diferente de 123 então exiba
+escreva("Acesso negado!!")
+// !!!!!!!!!!!!!!!!
 interrompa // Para aqui
-fimse// fim da condição se
-limpatela// limpar todas as informações anteriores
+fimse
+// fim da condição se
+limpatela
+// limpar todas as informações anteriores
 escreval("---------------Sistema bancário-------------- 
 
 
@@ -36,13 +41,15 @@ escreval("---------------Sistema bancário--------------
 
 4 - Sair
 
-
 Escolha a opção desejada: ") // Menu exibido para o usuário caso o nome e senha estejam corretos
-leia(menu)// leu oque o usuário digitou
+leia(menu)
+// leu oque o usuário digitou
 
-limpatela// limpar todas as informações anteriores
+limpatela
+// limpar todas as informações anteriores
 
-escolha menu // leio a resposta que eu direcionei ao usuário, e de acordo com a resposta dele exibo respostas diferentes
+escolha menu 
+// leio a resposta que eu direcionei ao usuário, e de acordo com a resposta dele exibo respostas diferentes
 
 caso 1 // primeira resposta
 
@@ -59,15 +66,19 @@ escreva("Seu saldo atual agora é de: ", saldoAtualizado) // exibo o saldo atual
 
 caso 3 // terceira resposta 
 
-escreva("Quando você deseja sacar: ") // pergunto quanto ele deseja tirar da conta dele
+escreva("Quando você deseja sacar: ") 
+// pergunto quanto ele deseja tirar da conta dele
 leia(saque) // leio a resposta
 
-se (saque > saldo) entao // se o número que ele quer tirar for maior que o número que ele tem entao
+se (saque > saldo) entao 
+// se o número que ele quer tirar for maior que o número que ele tem entao
 
-escreva("você não tem esse valor na conta") // escreve que ele não tem o valor necessario na conta
+escreva("você não tem esse valor na conta") 
+// escreve que ele não tem o valor necessario na conta
 
 
-senao // caso ele tiver o dinheiro na conta
+senao 
+// caso ele tiver o dinheiro na conta
 
 saldoAtualizado <- saldo - saque // conta matematica contendo o saldo atual menos quanto ele deseja sacar
 
@@ -75,13 +86,16 @@ escreva("Seu saldo atual agora é de: ", saldoAtualizado) // exibo ao usuario o 
 
 
 fimse // fim da condição se
-caso 4 // quarta opção
+caso 4 // quarta resposta
 
-escreva("Ok, tenha um bom dia!") // exibir uma mensagem positiva ao usuário
+escreva("Ok, tenha um bom dia!") 
+// exibir uma mensagem positiva ao usuário
 
-outrocaso // caso o usuário não digite nenhum dos números que eu propus para ele no menu
+outrocaso 
+// caso o usuário não digite nenhum dos números que eu propus para ele no menu
 
-escreva("Opção incorreta, renicie o menu e escolha uma opção verdadeira") // exibo isso a ele
+escreva("Opção incorreta, renicie o menu e escolha uma opção verdadeira") 
+// exibo isso a ele
 
 fimescolha // fim da condição dos casos
 fimalgoritmo // fim do codigo todo
