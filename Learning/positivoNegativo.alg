@@ -13,8 +13,9 @@ se (n1 > 0) entao
 escreva("O seu número é positivo")
 senao se (n1 < 0) entao
 escreva("O seu número é negativo")
-senao
-escreva("O seu número é neutro")
+
+// você não pediu para exibir nada se for igual a 0
+
 fimse
 fimse
 
