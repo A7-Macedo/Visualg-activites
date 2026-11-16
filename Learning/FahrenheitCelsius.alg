@@ -10,7 +10,7 @@ escreva("Digite a temperatura atual em fahrenheit: ")
 leia(fahrenheit)
 
 fahrenheit <- fahrenheit / 9
-celsius <- fahrenheit * 5
+celsius <- fahrenheit * 5 - 32
 
 escreva("A quantidade de graus celsius atual é de: ", celsius)
 

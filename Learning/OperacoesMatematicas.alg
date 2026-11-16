@@ -18,7 +18,7 @@ leia(n3)
 // primeira conta
 calc1 <- n1 * 2
 calc2 <- n2 / 2 
-soma <- calc1 + calc2 
+soma <- calc1 * calc2 
 // segunda conta 
 calc3 <- n1 * 3
 calc3 <- calc3 + n3 
