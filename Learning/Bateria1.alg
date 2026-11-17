@@ -2,10 +2,9 @@ algoritmo "Nome do Programa"
 
 var
 
-user, nome, bairro: caractere
+user, nome, bairro, operacao: caractere
 q, anoNascimento:inteiro
-c, f, km, m, cm, n1, n2, media, ganhoHora, horaMes, salarioBruto, inss, ir, sindicato, totalDes, salarioLiq: real
-
+c, f, km, m, cm, n1, n2, media, ganhoHora, horaMes, salarioBruto, inss, ir, sindicato, totalDes, salarioLiq, total: real
 
 inicio
 repita
@@ -94,6 +93,74 @@ fimse
 fimse
 caso 6
 
+escreva("Digite o primeiro número: ")
+leia(n1)
+escreva("Digite o segundo número: ")
+leia(n2)
+escreva("Qual operação matematica você deseja realizar( +, -, *, /): ")
+leia(operacao)
+escolha operacao
+caso "+"
+total <- n1 + n2
+escreval("A soma dos seus números é igual a: ", total)
+se( total % 2 = 0) entao
+escreval("O seu número é par")
+senao
+escreva("ele é impar")
+se (total > 0) entao
+escreva("ele é positivo")
+senao
+escreva("ele é negativo")
+fimse
+fimse
+
+caso "-"
+
+total <- n1 - n2
+escreva("A subtração dos seus números são igual a: ", total)
+se( total % 2 = 0) entao
+escreval("O seu número é par")
+senao
+escreva("ele é impar")
+se (total > 0) entao
+escreva("ele é positivo")
+senao
+escreva("ele é negativo")
+fimse
+fimse
+
+caso "*"
+
+total <- n1 * n2
+escreva("A multiplicação dos seus números são igual a: ", total)
+se( total % 2 = 0) entao
+escreval("O seu número é par")
+senao
+escreva("ele é impar")
+se (total > 0) entao
+escreva("ele é positivo")
+senao
+escreva("ele é negativo")
+fimse
+fimse
+
+caso "/"
+
+total <- n1 / n2
+escreva("A divisao dos seus números são igual a: ", total)
+se( total % 2 = 0) entao
+escreval("O seu número é par")
+senao
+escreva("ele é impar")
+se (total > 0) entao
+escreva("ele é positivo")
+senao
+escreva("ele é negativo")
+fimse
+fimse
+
+
+fimescolha
 caso 7
 
 caso 8
