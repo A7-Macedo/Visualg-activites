@@ -6,10 +6,10 @@ Coleção de algoritmos e exercícios de lógica de programação desenvolvidos 
 
 ## 📂 Algoritmos
 
-- **Estruturas Condicionais (`se / senao`)**
+- **Estruturas Condicionais (`se / senao / escolha`)**
   - Par ou Ímpar
   - Cálculo de Média Escolar
-- **Estruturas de Repetição (`enquanto / para`)**
+- **Estruturas de Repetição (`enquanto / para / repetir`)**
   - Contagem Regressiva
   - Tabuada de um Número
   - Somador de Números
@@ -21,12 +21,12 @@ Coleção de algoritmos e exercícios de lógica de programação desenvolvidos 
 
 ## 🚀 Como Rodar os Algoritmos
 
-1. Baixe e instale o [VisuAlg](https://visualg3.com.br/).
+1. Baixe e instale o [VisuAlg](https://visualg3.com.br/), ou abra ele no navegador ou baixe a extensão design líquido n vscode.
 2. Baixe este repositório ou copie o arquivo `.alg` desejado.
 3. Abra o arquivo dentro do programa VisuAlg.
-4. Pressione a tecla **F9** para executar o algoritmo.
+4. Pressione a tecla **F5** para executar o algoritmo.
 
----
+--------
 
 ## 👤 Autor
 
